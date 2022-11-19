@@ -23,6 +23,7 @@ ul{
 body{
     font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
+    background-color: #FFFFFF;
 }
 
 
@@ -126,7 +127,7 @@ img{
 
 .hero{
     background-color: var(--hero-footer-background-color);
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     padding-top: 200px;
     text-align: center;
 }
@@ -220,7 +221,7 @@ img{
 /* Work */
 .work{
     background-color: var(--primary-background-color);
-    padding: 94px 0;
+    padding-bottom: 94px;
 }
 .work-title{
     font-weight: 700;
@@ -354,7 +355,7 @@ margin-bottom: 21px;
 
 .portfolio-hero{
     background-color: var(--primary-background-color);
-    padding: 94px 215px;;
+    padding: 94px;
 }
 .portfolio-list .btn-current{
     font-family: inherit;
@@ -403,23 +404,26 @@ margin-bottom: 21px;
 /* project-list */
 
 .projects-list {
-  padding:94px 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 .projects-list.item{
   background-color:var(--primary-background-color);
-  
+  flex-basis: calc((100% - 60px) / 3);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .projects-container {
-  max-width: 370px;
   background-color: #FFFFFF;
   padding: 20px 24px;
-  margin-bottom: 30px;
   
 }
 
