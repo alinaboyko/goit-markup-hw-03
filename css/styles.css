@@ -188,8 +188,6 @@ img{
 }
 
 .features{
-    background-color: 
-    var(--primary-background-color);
     padding: 94px 0;
     
 }
@@ -354,7 +352,6 @@ margin-bottom: 21px;
 /* ------Portfolio---------- */
 
 .portfolio-hero{
-    background-color: var(--primary-background-color);
     padding: 94px;
 }
 .portfolio-list .btn-current{
